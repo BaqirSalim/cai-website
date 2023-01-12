@@ -1,0 +1,19 @@
+.footer {
+    width: 100%;
+    height: 3rem;
+    background-color: #FFD5D5;
+    position: fixed;
+    bottom: 0;
+}
+
+.linkedin-logo {
+    margin: 1rem;
+}
+
+.discord-logo {
+    margin: 1rem;
+}
+
+.instagram-logo {
+    margin: 1rem;
+}
