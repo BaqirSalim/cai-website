@@ -1,10 +1,14 @@
 .navbar {
     width: 100%;
+    position: relative;
     height: 4rem;
-    background-color: #f00;
+    background-color: rgb(255, 52, 52);
     display: flex;
     flex-direction: row;
     align-items: stretch;
+    top: 0;
+    font-family: "Public Pixel";
+    font-size: 0.8rem;
 }
 
 
@@ -17,7 +21,8 @@
 }
 
 .navbar .leftSide img {
-    width: 5.5rem;
+    /* width: 5.5rem; */
+    width: 4rem;
     float: left;
     margin-left: 1.2rem;
 }
@@ -27,10 +32,10 @@
     margin-right: 2rem;
     list-style: none;
     display: flex;
-    gap: 2rem;
-    font-size: 1.2rem;
+    gap: 1rem;
+    /* font-size: 1.2rem; */
     color: white;
-    font-family: monospace;
+    /* font-family: monospace; */
 }
 
 .navbar .rightSide {
@@ -41,7 +46,22 @@
     justify-content: right;
 }
 
+.menu-button {
+    transition: 0.1s; /*options are 0.05, 0.1, 0.25, 0.5, 1*/
+}
+
+.menu-button:hover {
+    transform: scale(1.3);
+}
+
 .navbar a {
     color: inherit;
     text-decoration: none;
+}
+
+.button-style {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* gap: 0rem;  */
 }

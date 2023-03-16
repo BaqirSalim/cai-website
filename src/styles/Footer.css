@@ -2,18 +2,17 @@
     width: 100%;
     height: 3rem;
     background-color: #FFD5D5;
-    position: fixed;
+    /* position: relative; */
     bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* gap: 1.5rem; */
 }
 
-.linkedin-logo {
-    margin: 1rem;
-}
-
-.discord-logo {
-    margin: 1rem;
-}
-
-.instagram-logo {
-    margin: 1rem;
+.icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
 }

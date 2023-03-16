@@ -6,9 +6,11 @@ function Footer()
 {
     return (
     <div className='footer'>
-        <FaLinkedin className='linkedin-logo' size="25px"/>
-        <FaDiscord className='discord-logo' size="25px"/>
-        <FaInstagram className='instagram-logo' size="25px"/>
+        <div className='icons'>
+        <FaLinkedin className='linkedin-logo' size="25px" color='#FF5756' title='LinkedIn'/>
+        <FaDiscord className='discord-logo' size="25px" color='#FF5756' title='Discord'/>
+        <FaInstagram className='instagram-logo' size="25px" color='#FF5756' title='Instagram'/>
+        </div>
     </div>
     );
 }
