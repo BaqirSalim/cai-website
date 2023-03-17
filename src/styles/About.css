@@ -1,16 +1,15 @@
-.parent {
+.outside {
     height: 92vh;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     /* margin-left: 2rem; */
 }
 
-.child {
+.inside {
     font-family: monospace;
     color: #FFD5D5;
-    display: flex;
     height: 33.33%;
     width: auto;
     /* justify-content: center; */
@@ -18,7 +17,10 @@
 
 .aboutSection {
     font-family: "Public Pixel";
-    /*font not changing. plz fix*/
+}
+
+.officers {
+    /*create grid*/
 }
 
 .card-outline {
