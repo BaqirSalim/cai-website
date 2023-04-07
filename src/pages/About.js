@@ -3,7 +3,11 @@ import OfficerCard from '../components/OfficerCard';
 
 import ProfilePicture from '../assets/17571cdf635b8156272109eaa9cb5900.jpg';
 
-const officersArray = [{picture: ProfilePicture, name: "Ahmed", position: "President"}, {picture: ProfilePicture, name: "Zeel", position: "Webmaster"}, {picture: ProfilePicture, name: "Humza", position: "Events Coordinator"}];
+const officersArray = [
+    {picture: ProfilePicture, name: "Ahmed", position: "President"}, 
+    {picture: ProfilePicture, name: "Zeel", position: "Webmaster"}, 
+    {picture: ProfilePicture, name: "Humza", position: "Events Coordinator"}
+];
 
 function About()
 {
